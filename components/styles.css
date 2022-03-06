@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@400;700&display=swap');
+
+:root {
+    --primary-color: #7e22ce;
+    --gray: #6b7280;
+    --light-gray: #f9fafb;
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+}
+
+h2 {
+    font-weight: bold;
+    display: block;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    margin: auto;
+    max-width: 600px;
+}
+
+.link {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.link-primary {
+    color: white;
+    background-color: var(--primary-color);
+
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border: 1px solid;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-logo {
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-items {
+    text-align: right;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.hero {
+    text-align: center;
+    color: var(--gray);
+}
+
+.hero-img {
+    width: 600px;
+}
+
+.hero-inverted {
+    color: var(--primary-color);
+}
+
+.sect {
+    margin: auto;
+    padding: 1rem 0rem;
+}
+
+.sect h1 {
+    text-align: center;
+}
+
+.sect-ow {
+    background-color: var(--light-gray);
+}
+
+.foot {
+    color: white;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    text-align: center;
+    padding: 0.25rem 0.5rem;
+}
