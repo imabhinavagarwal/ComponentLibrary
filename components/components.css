@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@400;700&display=swap');
+
+:root {
+    --primary-color: #7e22ce;
+    --gray: #6b7280;
+    --light-gray: #f9fafb;
+    --white: #ffffff;
+    --black: #171717;
+    color: var(--black);
+    background-color: var(--light-gray);
+}
+
+body {
+    margin: 0;
+}
+
+hr {
+    margin: 1rem 0rem;
+}
+
+section {
+    margin: 0.5rem 1rem;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 35vh;
+    background-color: var(--light-gray);
+}
+
+.avatar img {
+    padding: 0rem 1rem;
+    height: 20vh;
+    width: 20vh;
+}
+
+.avatar .round {
+    border-radius: 100%;
+}
+
+.avatar .l {
+    height: 25vh;
+    width: 25vh;
+}
+
+.avatar .sm {
+    height: 15vh;
+    width: 15vh;
+}

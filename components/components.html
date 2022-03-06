@@ -1,121 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Components</title>
+    <link rel="stylesheet" href="components.css">
 </head>
-
 <body>
-    <h1>Abhinav's Component Library</h1>
-    <p>I am trying to make a component library which I want to use accross my projects</p>
-    <hr>
-
-    <h2>@Typography</h2>
-    <p>This section is for headings</p>
-
-    <h1>This is a heading</h1>
-    <h2>This is another heading</h2>
-    <p>This is normal text. Long running text would look like this on your website. This will auto fold based on the
-        width</p>
-    <p>This will have <strong>bold text</strong></p>    
-    <small>This is a small text block</small>
-    <hr>
-
-    <h2>@Contaniners</h2>
-    <p>This section is for Contaniners</p>
-    <div class="container">
-        <h3>@fluid container</h3>
-        <p>This is going to be a fluid container. It will go full width of page. With some margin.</p>
-    </div>
-    <div class="container">
-        <h3>@center container</h3>
-        <p class="container-center">This is going to be a center container. It will go till a given width and center
-            content.</p>
-    </div>
-    <hr>
-
-    <h2>@Links</h2>
-    <p>This section is for links</p>
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-    <hr>
-
-    <h2>@Lists</h2>
-
-    <h3>This is for unordered lists</h3>
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-    <h3>This is for inline list</h3>
-    <ul>
-        <li class="list-item-inline">Item one</li>
-        <li class="list-item-inline">Item two</li>
-        <li class="list-item-inline">Item three</li>
-    </ul>
-
-    <h3>This is for reverse ordered list</h3>
-    <ol reversed>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ol>
-    <hr>
-
-    <h2>@Navigation</h2>
-
-    <div class="container navigation">
-        <div class="nav-logo">brandLogo</div>
-        <ul class="nav-items">
-            <li class="list-item-inline"><a class="link link-active" href="/">Home</a></li>
-            <li class="list-item-inline"><a class="link" href="/">Product</a></li>
-            <li class="list-item-inline"><a class="link" href="/">About Us</a></li>
-        </ul>
-    </div>
-    <hr>
-
-    <h2>@Header</h2>
-
-    <div class="hero">
-        <img class="hero-img" src="/images/logo.svg" />
-        <h1>This is my <span class="hero-inverted">header</span></h1>
-    </div>
-    <hr>
-
-    <h2>@Section</h2>
-
-    <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by
-        sections of features, team, pricing, contact info etc.</p>
-
-    <h3>white section</h3>
-    <section class="sect">
-        <h1>heading inside section</h1>
-        <p>This section will have white background</p>
-    </section>
-
-    <h3>offwhite section</h3>
-    <section class="sect sect-ow">
-        <h1>inside off white section</h1>
-        <p>This section will have gray background</p>
+    <section class="avatar">
+        <h1>Avatar</h1>
+        <p>The Avatar component is used to represent a user, displays the profile picture, initials or fallback icon.</p>
+        <hr>
+        <h2>Round Avatar</h2>
+        <p>Easy UI has three circle shaped avatar which includes avatar large, avatar and avatar small. Size of Round Avatar is created by passing class="avatar round" with l or sm for large and small respectively. When nothing is passed it will load default as medium</p>
+        <img src="/images/avatar.jpg" class="round l" alt="Large Avatar">
+        <img src="/images/avatar.jpg" class="round" alt="Medium Avatar">
+        <img src="/images/avatar.jpg" class="round sm" alt="Small Avatar">
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2520l%2522%2520alt%253D%2522Large%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2520sm%2522%2520alt%253D%2522Small%2520Avatar%2522%253E"
+            style="border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <hr>
+        <h2>Square Avatar</h2>
+        <p>Easy UI has three square shaped avatar which includes avatar large, avatar and avatar small. Size of Sqaure Avatar is created by passing class="avatar" with l or sm for large and small respectively. When nothing is passed it will load default as medium</p>
+        <img src="/images/avatar.jpg" class="l" alt="Large Avatar">
+        <img src="/images/avatar.jpg" alt="Medium Avatar">
+        <img src="/images/avatar.jpg" class="sm" alt="Small Avatar">
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522l%2522%2520alt%253D%2522Large%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522sm%2522%2520alt%253D%2522Small%2520Avatar%2522%253E"
+            style="border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
     </section>
     <hr>
+    <section>
 
-    <h2>@Footer</h2>
-
-    <footer class="foot">
-        <h2>Thanks!</h2>
-        <ul>
-            <li class="list-item-inline">Insta</li>
-            <li class="list-item-inline">FB</li>
-            <li class="list-item-inline">Twitter</li>
-        </ul>
-    </footer>
+    </section>
 </body>
-
 </html>
