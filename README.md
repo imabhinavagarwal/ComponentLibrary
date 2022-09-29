@@ -1,4 +1,9 @@
-Welcome to my personal Component Library.
+# Easy UI
+It's a CSS Library with which you can design and build some of your awesome projects as Easy UI
+has some pre-defined styled classes and components.
 
-You can find below components here.
-# Avatar
+## Features
+
+- Avatar
+    - Rounded Avatar
+    - Square Avatar

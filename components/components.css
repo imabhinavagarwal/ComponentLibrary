@@ -6,6 +6,8 @@
     --light-gray: #f9fafb;
     --white: #ffffff;
     --black: #171717;
+    --red: #dc2626;
+    --green: #16a34a;
     color: var(--black);
     background-color: var(--light-gray);
 }
