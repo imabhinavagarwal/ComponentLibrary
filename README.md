@@ -7,3 +7,7 @@ has some pre-defined styled classes and components.
 - Avatar
     - Rounded Avatar
     - Square Avatar
+
+- Alert
+    - Simple Alert
+    - Outline Alert

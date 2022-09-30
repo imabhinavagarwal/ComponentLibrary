@@ -6,8 +6,10 @@
     --light-gray: #f9fafb;
     --white: #ffffff;
     --black: #171717;
-    --red: #dc2626;
-    --green: #16a34a;
+    --red: #ef4444;
+    --green: #22c553;
+    --yellow: #facc15;
+    --blue: #3b82f6;
     color: var(--black);
     background-color: var(--light-gray);
 }
@@ -49,4 +51,43 @@ iframe {
 .avatar .sm {
     height: 15vh;
     width: 15vh;
+}
+
+.alert div {
+    text-align: center;
+    border: 0px solid;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem;
+    padding: 1rem 0rem;
+}
+
+.alert .container {
+    text-align: center;
+    border: 1px solid;
+}
+
+.primary {
+    --primary-color: var(--blue);
+    background-color: var(--primary-color);
+}
+
+.success {
+    --primary-color: var(--green);
+    background-color: var(--primary-color);
+}
+
+.error {
+    --primary-color: var(--red);
+    background-color: var(--primary-color);
+}
+
+.warning {
+    --primary-color: var(--yellow);
+    background-color: var(--primary-color);
+}
+
+.alert .outline {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: var(--light-gray);
 }
