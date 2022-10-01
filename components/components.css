@@ -230,14 +230,31 @@ iframe {
 
 .card {
     border: 1px solid var(--black);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
     margin: 1rem;
-    width: fit-content;
+    width: 25%;
 }
 
-.collapsible .card {
+.shadow {
+    border: 0;
+    box-shadow: 0 4px 8px 0 var(--gray);
+}
+
+.card img {
+    width: 100%;
+    height: 20rem;
+}
+
+.card .container {
+    padding: 0 1rem 0.5rem 0.5rem;
+}
+
+.card .title {
+    color: var(--gray);
+}
+
+.collapsible .container {
     visibility: hidden;
+    width: fit-content;
 }
 
 #btnCollapse:active + div {
