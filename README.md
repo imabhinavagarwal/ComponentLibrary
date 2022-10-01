@@ -15,3 +15,6 @@ has some pre-defined styled classes and components.
 - Badge
     - Numbered Badge
     - Dot Badge
+
+- Snackbar
+	- Baseline Snackbar

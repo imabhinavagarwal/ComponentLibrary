@@ -4,6 +4,7 @@
     --violet: #7e22ce;
     --primary-color: var(--violet);
     --gray: #6b7280;
+    --dark-gray: #1f2937;
     --light-gray: #f9fafb;
     --primary-bg-color: var(--light-gray);
     --white: #ffffff;
@@ -141,4 +142,22 @@ iframe {
     position: absolute;
     bottom: 1em;
     right: 2em;
+}
+
+.snackbar .baseline {
+    text-align: center;
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+    position: fixed;
+    bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    visibility: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#btnControl:checked + div {
+    visibility: visible;
 }
