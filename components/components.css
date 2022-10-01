@@ -2,6 +2,7 @@
 
 :root {
     --violet: #7e22ce;
+    --violet-light: #7e22ce73;
     --primary-color: var(--violet);
     --gray: #6b7280;
     --dark-gray: #1f2937;
@@ -172,4 +173,41 @@ iframe {
 
 .slider output {
     padding: 1rem;
+}
+
+/* Button */
+.button-container{
+    padding: .5rem 3rem;
+}
+
+.btn{
+    padding: .5rem 2rem;
+    margin: 0 .5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-primary{
+    border: 1px solid var(--violet);
+}
+
+.btn-primary-dark{
+    background-color: var(--violet);
+    color: var(--white)
+}
+
+.btn-primary-light{
+    background-color: var(--violet-light);
+    color: var(--white)
+}
+
+.btn-link{
+    text-decoration: underline;
+    color: var(--violet);
+}
+
+.btn-rounded{
+    border-radius: 50px;
 }
