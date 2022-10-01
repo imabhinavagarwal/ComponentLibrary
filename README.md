@@ -1,6 +1,11 @@
+
 # Easy UI
 
 It's a CSS Library with which you can design and build some of your awesome projects as Easy UI
+
+# Easy Style
+It's a CSS Library with which you can design and build some of your awesome projects as Easy Style
+
 has some pre-defined styled classes and components.
 
 ## Features
@@ -20,7 +25,16 @@ has some pre-defined styled classes and components.
   - Numbered Badge
   - Dot Badge
 
+- Card
+	- Basic Card
+	- Shadow Card
+	
+- Check Box
+
+- Progess Bar
+
 - Snackbar
+
 
   - Baseline Snackbar
 
@@ -30,3 +44,8 @@ has some pre-defined styled classes and components.
   - Primary Buttons
   - Rounded Buttons
   - Buttons with Link
+
+- Slider
+
+- Collapsible
+

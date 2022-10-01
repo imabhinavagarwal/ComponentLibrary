@@ -100,7 +100,7 @@ button {
     color: var(--white);
     width: 100%;
     bottom: 0;
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
