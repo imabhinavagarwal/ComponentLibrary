@@ -13,6 +13,7 @@
     --green: #22c553;
     --yellow: #facc15;
     --blue: #3b82f6;
+    --sky: #0ea5e9;
     color: var(--black);
     background-color: var(--light-gray);
 }
@@ -172,4 +173,16 @@ iframe {
 
 .slider output {
     padding: 1rem;
+}
+
+.progress-bar {
+    border: 1px solid var(--sky);
+    border-radius: 8px;
+    height: 16px;
+}
+
+.progress-level {
+    height: inherit;
+    border-radius: inherit;
+    background: var(--sky);
 }
