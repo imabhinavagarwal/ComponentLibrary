@@ -4,3 +4,4 @@ This is the Book STore hall of fame! All contributors of source code, or documen
 
 - Abhinav Agarwal (https://github.com/imabhinavagarwal)
 - Victor Mauroe (https://github.com/victormauroe)
+- Shraddha Muley (https://github.com/shraddha15-creator)
