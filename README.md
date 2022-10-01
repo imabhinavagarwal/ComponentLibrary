@@ -20,3 +20,5 @@ has some pre-defined styled classes and components.
 	- Baseline Snackbar
 
 - Slider
+- Progess Bar
+- Check Box
