@@ -11,3 +11,7 @@ has some pre-defined styled classes and components.
 - Alert
     - Simple Alert
     - Outline Alert
+
+- Badge
+    - Numbered Badge
+    - Dot Badge
