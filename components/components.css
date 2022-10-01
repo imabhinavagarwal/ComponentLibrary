@@ -187,7 +187,7 @@ iframe {
     background: var(--sky);
 }
 
-input {
+.checkbox input {
     padding: 0;
     height: initial;
     width: initial;
@@ -196,12 +196,12 @@ input {
     cursor: pointer;
 }
 
-label {
+.checkbox label {
     position: relative;
     cursor: pointer;
 }
 
-label:before {
+.checkbox label:before {
     content:'';
     -webkit-appearance: none;
     background-color: transparent;
@@ -215,7 +215,7 @@ label:before {
     margin-right: 5px;
 }
 
-input:checked + label:after {
+.checkbox input:checked + label:after {
     content: '';
     display: block;
     position: absolute;
