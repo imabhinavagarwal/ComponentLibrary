@@ -18,3 +18,5 @@ has some pre-defined styled classes and components.
 
 - Snackbar
 	- Baseline Snackbar
+
+- Slider
