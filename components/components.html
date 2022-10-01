@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="components.css">
 </head>
 <body>
-    <section class="avatar">
+    <section>
         <h1>Avatar</h1>
         <p>The Avatar component is used to represent a user, displays the profile picture, initials or fallback icon.</p>
         <hr>
         <h2>Round Avatar</h2>
         <p>Easy UI has three circle shaped avatar which includes avatar large, avatar and avatar small. Size of Round Avatar is created by passing class="avatar round" with l or sm for large and small respectively. When nothing is passed it will load default as medium</p>
-        <img src="../images/avatar.jpg" class="round l" alt="Large Avatar">
-        <img src="../images/avatar.jpg" class="round" alt="Medium Avatar">
-        <img src="../images/avatar.jpg" class="round sm" alt="Small Avatar">
+        <img src="../images/avatar.jpg" class="avatar round l" alt="Large Avatar">
+        <img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
+        <img src="../images/avatar.jpg" class="avatar round sm" alt="Small Avatar">
         <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2520l%2522%2520alt%253D%2522Large%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2520sm%2522%2520alt%253D%2522Small%2520Avatar%2522%253E"
             style="border:0; transform: scale(1); overflow:hidden;"
@@ -25,9 +25,9 @@
         <hr>
         <h2>Square Avatar</h2>
         <p>Easy UI has three square shaped avatar which includes avatar large, avatar and avatar small. Size of Sqaure Avatar is created by passing class="avatar" with l or sm for large and small respectively. When nothing is passed it will load default as medium</p>
-        <img src="../images/avatar.jpg" class="l" alt="Large Avatar">
-        <img src="../images/avatar.jpg" alt="Medium Avatar">
-        <img src="../images/avatar.jpg" class="sm" alt="Small Avatar">
+        <img src="../images/avatar.jpg" class="avatar l" alt="Large Avatar">
+        <img src="../images/avatar.jpg" class="avatar" alt="Medium Avatar">
+        <img src="../images/avatar.jpg" class="avatar sm" alt="Small Avatar">
         <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522l%2522%2520alt%253D%2522Large%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522sm%2522%2520alt%253D%2522Small%2520Avatar%2522%253E"
             style="border:0; transform: scale(1); overflow:hidden;"
@@ -35,13 +35,13 @@
         </iframe>
     </section>
     <hr>
-    <section class="alert">
+    <section>
         <h1>Alert</h1>
         <p>Alerts can be used to show an important message to the user so that it can grab user's attention without any disturbance.</p>
         <hr>
         <h2>Simple Alert</h2>
         <p>Simple Alerts are the alerts which can be created by giving class name as alert.</p>
-        <div class="container">
+        <div class="alert container">
             <div class="primary"> Primary Alert !!</div>
             <div class="success"> Success Alert !!</div>
             <div class="warning"> Warning Alert !!</div>
@@ -55,7 +55,7 @@
         <hr>
         <h2>Outline Alert</h2>
         <p>Outline Alerts are the alerts which can be created by giving class name as alert followed by its varient.</p>
-        <div class="container">
+        <div class="alert container">
             <div class="outline primary"> Primary Alert !!</div>
             <div class="outline success"> Success Alert !!</div>
             <div class="outline warning"> Warning Alert !!</div>
@@ -68,28 +68,28 @@
         </iframe>
     </section>
     <hr>
-    <section class="badge">
+    <section>
         <h1>Badge</h1>
         <p>Badges are the small circle components which is generally used at the parent component to display numbers. It can be situated at the top-right, top-left or at the bottom of the parent component.</p>
         <hr>
         <h2>Numbered Badge</h2>
         <p>Numbered badges are used to get the notification count on the parent container.</p>
-        <div class="icon">
+        <div class="badge icon">
             <img src="../images/email.jpg" alt="mailbox" class="sm icon">
             <span class="numbered">15</span>
         </div>
-        <div class="icon">
+        <div class="badge icon">
             <img src="../images/shopping-cart.jpg" alt="shopping-cart" class="sm icon">
             <div class="numbered">10</div>
         </div>
         <h2>Dot Badge</h2>
         <p>Dot badges are used to show the dot on the parent container. This is widely used to show unread notifications or online/offline status</p>
-        <div class="avatar dot">
-            <img src="../images/avatar.jpg" class="round" alt="Medium Avatar">
+        <div class="badge dot">
+            <img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
             <span class="top"></div>
         </div>
-        <div class="avatar dot">
-            <img src="../images/avatar.jpg" class="round" alt="Medium Avatar">
+        <div class="badge dot">
+            <img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
             <span class="bottom"></div>
         </div>
     </section>
@@ -109,15 +109,17 @@
     <section class="progressbar">
 
     </section>
-    <section class="snackbar">
+    <section>
         <h1>Snackbar</h1>
         <p>Snackbar/Toast is a type of interaction happened between user and UI and this snackbar stays on the screen for 1-2 seconds.</p>
         <hr>
         <h2>Baseline snackbar</h2>
         <p>Baseline Snackbar is usually shown in the middle of the screen at the bottom. It is generally used to show pop-up for warning, success, errors etc.</p>
-        <input type="checkbox" id="btnControl"/> Show snackbar
-        <div class="baseline" for="btnControl">
-            Failed to process request. <button>Retry</button>
+        <div class="snackbar">
+            <input type="checkbox" id="btnControl"/> Show snackbar
+            <div class="baseline" for="btnControl">
+                Failed to process request. <button>Retry</button>
+            </div>
         </div>
         <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=753&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2509%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522btnControl%2522%252F%253E%2520Show%2520snackbar%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522baseline%2522%2520for%253D%2522btnControl%2522%253E%250A%2520%2520%2520%2520%2509Failed%2520to%2520process%2520request.%2520%253Cbutton%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"

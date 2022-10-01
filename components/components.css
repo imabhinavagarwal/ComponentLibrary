@@ -36,37 +36,39 @@ iframe {
     background-color: var(--primary-bg-color);
 }
 
-.avatar img {
+.avatar {
     padding: 0rem 1rem;
     height: 20vh;
     width: 20vh;
 }
 
-.avatar .round {
+.round {
     border-radius: 100%;
 }
 
-.avatar .l {
+.l {
     height: 25vh;
     width: 25vh;
 }
 
-.avatar .sm {
+.sm {
     height: 15vh;
     width: 15vh;
 }
 
 .alert div {
-    text-align: center;
     border: 0px solid;
     border-radius: 0.5rem;
     margin: 1rem 1rem;
     padding: 1rem 0rem;
 }
 
-.alert .container {
+.alert {
     text-align: center;
     border: 1px solid;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem;
+    padding: 1rem 0rem;
 }
 
 .primary {
@@ -95,16 +97,12 @@ iframe {
     background-color: var(--primary-bg-color);
 }
 
-.badge .icon{
+.icon {
     position: relative;
     margin: 1rem;
 }
 
-.sm {
-    height: 15vh;
-    width: 15vh;
-}
-.badge div {
+.badge {
     display: inline-block;
 }
 
@@ -120,7 +118,7 @@ iframe {
     right: 8px;
 }
 
-.badge .dot {
+.dot {
     position: relative;
 }
 
@@ -132,13 +130,13 @@ iframe {
     border: 1px solid var(--primary-bg-color);
 }
 
-.dot .top {
+.badge .top {
     position: absolute;
     top: 1em;
     right: 2em;
 }
 
-.dot .bottom {
+.badge .bottom {
     position: absolute;
     bottom: 1em;
     right: 2em;
