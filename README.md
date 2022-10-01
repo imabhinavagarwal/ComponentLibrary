@@ -16,9 +16,13 @@ has some pre-defined styled classes and components.
     - Numbered Badge
     - Dot Badge
 
+- Check Box
+
+- Progess Bar
+
 - Snackbar
 	- Baseline Snackbar
 
 - Slider
-- Progess Bar
-- Check Box
+
+- Collapsible

@@ -227,3 +227,19 @@ iframe {
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
 }
+
+.card {
+    border: 1px solid var(--black);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: fit-content;
+}
+
+.collapsible .card {
+    visibility: hidden;
+}
+
+#btnCollapse:active + div {
+    visibility: visible;
+}
