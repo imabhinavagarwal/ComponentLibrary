@@ -16,6 +16,10 @@ has some pre-defined styled classes and components.
     - Numbered Badge
     - Dot Badge
 
+- Card
+	- Basic Card
+	- Shadow Card
+	
 - Check Box
 
 - Progess Bar
