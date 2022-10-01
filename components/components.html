@@ -1,186 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Components</title>
-    <link rel="stylesheet" href="components.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Components</title>
+	<link rel="stylesheet" href="components.css">
 </head>
+
 <body>
-    <section>
-        <h1>Avatar</h1>
-        <p>The Avatar component is used to represent a user, displays the profile picture, initials or fallback icon.</p>
-        <hr>
-        <h2>Round Avatar</h2>
-        <p>Easy UI has three circle shaped avatar which includes avatar large, avatar and avatar small. Size of Round Avatar is created by passing class="avatar round" with l or sm for large and small respectively. When nothing is passed it will load default as medium</p>
-        <img src="../images/avatar.jpg" class="avatar round l" alt="Large Avatar">
-        <img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
-        <img src="../images/avatar.jpg" class="avatar round sm" alt="Small Avatar">
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2520l%2522%2520alt%253D%2522Large%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2520sm%2522%2520alt%253D%2522Small%2520Avatar%2522%253E"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-        <hr>
-        <h2>Square Avatar</h2>
-        <p>Easy UI has three square shaped avatar which includes avatar large, avatar and avatar small. Size of Sqaure Avatar is created by passing class="avatar" with l or sm for large and small respectively. When nothing is passed it will load default as medium</p>
-        <img src="../images/avatar.jpg" class="avatar l" alt="Large Avatar">
-        <img src="../images/avatar.jpg" class="avatar" alt="Medium Avatar">
-        <img src="../images/avatar.jpg" class="avatar sm" alt="Small Avatar">
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522l%2522%2520alt%253D%2522Large%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522sm%2522%2520alt%253D%2522Small%2520Avatar%2522%253E"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-    </section>
-    <hr>
-    <section>
-        <h1>Alert</h1>
-        <p>Alerts can be used to show an important message to the user so that it can grab user's attention without any disturbance.</p>
-        <hr>
-        <h2>Simple Alert</h2>
-        <p>Simple Alerts are the alerts which can be created by giving class name as alert.</p>
-        <div class="alert container">
-            <div class="primary"> Primary Alert !!</div>
-            <div class="success"> Success Alert !!</div>
-            <div class="warning"> Warning Alert !!</div>
-            <div class="error"> Error Alert !!</div>
-        </div>
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522primary%2522%253E%2520Primary%2520Alert%2520%21%21%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success%2522%253E%2520Success%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522warning%2522%253E%2520Warning%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error%2522%253E%2520Error%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-        <hr>
-        <h2>Outline Alert</h2>
-        <p>Outline Alerts are the alerts which can be created by giving class name as alert followed by its varient.</p>
-        <div class="alert container">
-            <div class="outline primary"> Primary Alert !!</div>
-            <div class="outline success"> Success Alert !!</div>
-            <div class="outline warning"> Warning Alert !!</div>
-            <div class="outline error"> Error Alert !!</div>
-        </div>
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline%2520primary%2522%253E%2520Primary%2520Alert%2520%21%21%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline%2520success%2522%253E%2520Success%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline%2520warning%2522%253E%2520Warning%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline%2520error%2522%253E%2520Error%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-    </section>
-    <hr>
-    <section>
-        <h1>Badge</h1>
-        <p>Badges are the small circle components which is generally used at the parent component to display numbers. It can be situated at the top-right, top-left or at the bottom of the parent component.</p>
-        <hr>
-        <h2>Numbered Badge</h2>
-        <p>Numbered badges are used to get the notification count on the parent container.</p>
-        <div class="badge icon">
-            <img src="../images/email.jpg" alt="mailbox" class="sm icon">
-            <span class="numbered">15</span>
-        </div>
-        <div class="badge icon">
-            <img src="../images/shopping-cart.jpg" alt="shopping-cart" class="sm icon">
-            <div class="numbered">10</div>
-        </div>
-        <h2>Dot Badge</h2>
-        <p>Dot badges are used to show the dot on the parent container. This is widely used to show unread notifications or online/offline status</p>
-        <div class="badge dot">
-            <img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
-            <span class="top"></div>
-        </div>
-        <div class="badge dot">
-            <img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
-            <span class="bottom"></div>
-        </div>
-    </section>
-    <hr>
-    <section class="button">
-        <h1>Buttons</h1>
-        <div  class="button-container">
-            <p>Primary Buttons</p>
-            <div>
-                <button class="btn btn-primary btn-primary-dark">Button One</button>
-                <button class="btn btn-primary btn-primary-light">Button Two</button>
-                <button class="btn btn-primary">Button Three</button>
-            </div>
-        </div>
-        <div  class="button-container">
-            <p>Rounded Buttons</p>
-            <div>
-                <button class="btn btn-rounded btn-primary btn-primary-dark">Button One</button>
-                <button class="btn btn-rounded btn-primary btn-primary-light">Button Two</button>
-                <button class="btn btn-rounded btn-primary">Button Three</button>
-            </div>
-        </div>
-        <div  class="button-container">
-            <p>Buttons With Link</p>
-            <div>
-                <a href="#" class="btn btn-link">Google.com</a>
-                <a href="#" class="btn btn-link">Read More..</a>
-                <a href="#" class="btn btn-link">Go to next page</a>
-                
-            </div>
-        </div>
-        <iframe
-  src="https://carbon.now.sh/embed/ZjU3bqueLdKQikyfD1jM"
-  style="width: 930px; height: 564px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-    </section>
-    <hr>
-    </body>
-    <section class="card">
+	<section>
+		<h1>Avatar</h1>
+		<p>The Avatar component is used to represent a user, displays the profile picture, initials or fallback icon.</p>
+		<hr>
+		<h2>Round Avatar</h2>
+		<p>Easy UI has three circle shaped avatar which includes avatar large, avatar and avatar small. Size of Round Avatar
+			is created by passing class="avatar round" with l or sm for large and small respectively. When nothing is passed
+			it will load default as medium</p>
+		<img src="../images/avatar.jpg" class="avatar round l" alt="Large Avatar">
+		<img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
+		<img src="../images/avatar.jpg" class="avatar round sm" alt="Small Avatar">
+		<iframe
+			src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2520l%2522%2520alt%253D%2522Large%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522round%2520sm%2522%2520alt%253D%2522Small%2520Avatar%2522%253E"
+			style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+		</iframe>
+		<hr>
+		<h2>Square Avatar</h2>
+		<p>Easy UI has three square shaped avatar which includes avatar large, avatar and avatar small. Size of Sqaure
+			Avatar is created by passing class="avatar" with l or sm for large and small respectively. When nothing is passed
+			it will load default as medium</p>
+		<img src="../images/avatar.jpg" class="avatar l" alt="Large Avatar">
+		<img src="../images/avatar.jpg" class="avatar" alt="Medium Avatar">
+		<img src="../images/avatar.jpg" class="avatar sm" alt="Small Avatar">
+		<iframe
+			src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522l%2522%2520alt%253D%2522Large%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%253Cimg%2520src%253D%2522%252Fimages%252Favatar.jpg%2522%2520class%253D%2522sm%2522%2520alt%253D%2522Small%2520Avatar%2522%253E"
+			style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+		</iframe>
+	</section>
+	<hr>
+	<section>
+		<h1>Alert</h1>
+		<p>Alerts can be used to show an important message to the user so that it can grab user's attention without any
+			disturbance.</p>
+		<hr>
+		<h2>Simple Alert</h2>
+		<p>Simple Alerts are the alerts which can be created by giving class name as alert.</p>
+		<div class="alert container">
+			<div class="primary"> Primary Alert !!</div>
+			<div class="success"> Success Alert !!</div>
+			<div class="warning"> Warning Alert !!</div>
+			<div class="error"> Error Alert !!</div>
+		</div>
+		<iframe
+			src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522primary%2522%253E%2520Primary%2520Alert%2520%21%21%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success%2522%253E%2520Success%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522warning%2522%253E%2520Warning%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error%2522%253E%2520Error%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+			style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+		</iframe>
+		<hr>
+		<h2>Outline Alert</h2>
+		<p>Outline Alerts are the alerts which can be created by giving class name as alert followed by its varient.</p>
+		<div class="alert container">
+			<div class="outline primary"> Primary Alert !!</div>
+			<div class="outline success"> Success Alert !!</div>
+			<div class="outline warning"> Warning Alert !!</div>
+			<div class="outline error"> Error Alert !!</div>
+		</div>
+		<iframe
+			src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline%2520primary%2522%253E%2520Primary%2520Alert%2520%21%21%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline%2520success%2522%253E%2520Success%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline%2520warning%2522%253E%2520Warning%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline%2520error%2522%253E%2520Error%2520Alert%2520%21%21%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+			style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+		</iframe>
+	</section>
+	<hr>
+	<section>
+		<h1>Badge</h1>
+		<p>Badges are the small circle components which is generally used at the parent component to display numbers. It can
+			be situated at the top-right, top-left or at the bottom of the parent component.</p>
+		<hr>
+		<h2>Numbered Badge</h2>
+		<p>Numbered badges are used to get the notification count on the parent container.</p>
+		<div class="badge icon">
+			<img src="../images/email.jpg" alt="mailbox" class="sm icon">
+			<span class="numbered">15</span>
+		</div>
+		<div class="badge icon">
+			<img src="../images/shopping-cart.jpg" alt="shopping-cart" class="sm icon">
+			<div class="numbered">10</div>
+		</div>
+		<h2>Dot Badge</h2>
+		<p>Dot badges are used to show the dot on the parent container. This is widely used to show unread notifications or
+			online/offline status</p>
+		<div class="badge dot">
+			<img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
+			<span class="top">
+		</div>
+		</div>
+		<div class="badge dot">
+			<img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
+			<span class="bottom">
+		</div>
+		</div>
+	</section>
+	<hr>
+	<section class="button">
+		<h1>Buttons</h1>
+		<div class="button-container">
+			<p>Primary Buttons</p>
+			<div>
+				<button class="btn btn-primary btn-primary-dark">Button One</button>
+				<button class="btn btn-primary btn-primary-light">Button Two</button>
+				<button class="btn btn-primary">Button Three</button>
+			</div>
+		</div>
+		<div class="button-container">
+			<p>Rounded Buttons</p>
+			<div>
+				<button class="btn btn-rounded btn-primary btn-primary-dark">Button One</button>
+				<button class="btn btn-rounded btn-primary btn-primary-light">Button Two</button>
+				<button class="btn btn-rounded btn-primary">Button Three</button>
+			</div>
+		</div>
+		<div class="button-container">
+			<p>Buttons With Link</p>
+			<div>
+				<a href="#" class="btn btn-link">Google.com</a>
+				<a href="#" class="btn btn-link">Read More..</a>
+				<a href="#" class="btn btn-link">Go to next page</a>
 
-    </section>
-    <section class="input">
+			</div>
+		</div>
+		<iframe src="https://carbon.now.sh/embed/ZjU3bqueLdKQikyfD1jM"
+			style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+		</iframe>
+	</section>
+	<hr>
 
-    </section>
-    <section class="checkbox">
+	<section class="card">
 
-    </section>
-    <section class="progressbar">
-         <h1>Progress Bar</h1>
-        <p>Easy UI Progress Bar. Progress level can be adjusted using width attribute.`</p>
-        <div class="progress-bar">
-            <div class="progress-level" style="width:60%"></div>
-        </div>
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522progress-bar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522progress-level%2522%2520style%253D%2522width%253A60%2525%2522%252F%253E%250A%253C%252Fdiv%253E"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-    </section>
-    <section>
-        <h1>Snackbar</h1>
-        <p>Snackbar/Toast is a type of interaction happened between user and UI and this snackbar stays on the screen for 1-2 seconds.</p>
-        <hr>
-        <h2>Baseline snackbar</h2>
-        <p>Baseline Snackbar is usually shown in the middle of the screen at the bottom. It is generally used to show pop-up for warning, success, errors etc.</p>
-        <div class="snackbar">
-            <input type="checkbox" id="btnControl"/> Show snackbar
-            <div class="baseline" for="btnControl">
-                Failed to process request. <button>Retry</button>
-            </div>
-        </div>
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=753&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2509%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522btnControl%2522%252F%253E%2520Show%2520snackbar%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522baseline%2522%2520for%253D%2522btnControl%2522%253E%250A%2520%2520%2520%2520%2509Failed%2520to%2520process%2520request.%2520%253Cbutton%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-    </section>
-    <hr>
-    <section>
-        <h1>Slider</h1>
-        <p>A slider is an input field that can be used to select a numeric value within a given range (minimum and maximum values).</p>
-        <div class="slider">
-            <input type="range" min="0" max="1000" step="10" value="100" oninput="this.nextElementSibling.value = this.value">
-            <output>100</output>
-        </div>
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=897&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2509%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%25221000%2522%2520step%253D%252210%2522%2520value%253D%2522100%2522%2520oninput%253D%2522this.nextElementSibling.value%2520%253D%2520this.value%2522%253E%250A%2509%253Coutput%253E100%253C%252Foutput%253E%250A%253C%252Fdiv%253E"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-    </section>
+	</section>
+	<section class="input">
+
+	</section>
+	<section class="checkbox">
+
+	</section>
+	<section class="progressbar">
+		<h1>Progress Bar</h1>
+		<p>Easy UI Progress Bar. Progress level can be adjusted using width attribute.`</p>
+		<div class="progress-bar">
+			<div class="progress-level" style="width:60%"></div>
+		</div>
+		<iframe
+			src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522progress-bar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522progress-level%2522%2520style%253D%2522width%253A60%2525%2522%252F%253E%250A%253C%252Fdiv%253E"
+			style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+		</iframe>
+	</section>
+	<section>
+		<h1>Snackbar</h1>
+		<p>Snackbar/Toast is a type of interaction happened between user and UI and this snackbar stays on the screen for
+			1-2 seconds.</p>
+		<hr>
+		<h2>Baseline snackbar</h2>
+		<p>Baseline Snackbar is usually shown in the middle of the screen at the bottom. It is generally used to show pop-up
+			for warning, success, errors etc.</p>
+		<div class="snackbar">
+			<input type="checkbox" id="btnControl" /> Show snackbar
+			<div class="baseline" for="btnControl">
+				Failed to process request. <button>Retry</button>
+			</div>
+		</div>
+		<iframe
+			src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=753&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2509%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522btnControl%2522%252F%253E%2520Show%2520snackbar%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522baseline%2522%2520for%253D%2522btnControl%2522%253E%250A%2520%2520%2520%2520%2509Failed%2520to%2520process%2520request.%2520%253Cbutton%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+			style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+		</iframe>
+	</section>
+	<hr>
+	<section>
+		<h1>Slider</h1>
+		<p>A slider is an input field that can be used to select a numeric value within a given range (minimum and maximum
+			values).</p>
+		<div class="slider">
+			<input type="range" min="0" max="1000" step="10" value="100" oninput="this.nextElementSibling.value = this.value">
+			<output>100</output>
+		</div>
+		<iframe
+			src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=897&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2509%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%25221000%2522%2520step%253D%252210%2522%2520value%253D%2522100%2522%2520oninput%253D%2522this.nextElementSibling.value%2520%253D%2520this.value%2522%253E%250A%2509%253Coutput%253E100%253C%252Foutput%253E%250A%253C%252Fdiv%253E"
+			style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+		</iframe>
+	</section>
 </body>
+
 </html>
