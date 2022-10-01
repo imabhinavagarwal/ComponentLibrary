@@ -127,5 +127,19 @@
             sandbox="allow-scripts allow-same-origin">
         </iframe>
     </section>
+    <hr>
+    <section>
+        <h1>Slider</h1>
+        <p>A slider is an input field that can be used to select a numeric value within a given range (minimum and maximum values).</p>
+        <div class="slider">
+            <input type="range" min="0" max="1000" step="10" value="100" oninput="this.nextElementSibling.value = this.value">
+            <output>100</output>
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=897&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2509%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%25221000%2522%2520step%253D%252210%2522%2520value%253D%2522100%2522%2520oninput%253D%2522this.nextElementSibling.value%2520%253D%2520this.value%2522%253E%250A%2509%253Coutput%253E100%253C%252Foutput%253E%250A%253C%252Fdiv%253E"
+            style="border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </section>
 </body>
 </html>

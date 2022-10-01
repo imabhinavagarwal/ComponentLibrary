@@ -159,3 +159,17 @@ iframe {
 #btnControl:checked + div {
     visibility: visible;
 }
+
+.slider {
+    width: 100%;
+    display: inline;
+}
+
+.slider input {
+    width: 80%;
+    padding: 0;
+}
+
+.slider output {
+    padding: 1rem;
+}
