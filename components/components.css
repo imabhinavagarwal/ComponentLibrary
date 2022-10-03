@@ -334,3 +334,23 @@ iframe {
     margin: 4px 0;
 }
 
+.pagination {
+    list-style-type: none;
+}
+
+.page-item {
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 14px;
+    font-weight: normal;
+    background: var(--sky);
+    cursor: pointer;
+    position: relative;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.page-item a {
+    text-decoration: none;
+    color: var(--white);
+}
+
