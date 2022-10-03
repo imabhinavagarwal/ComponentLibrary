@@ -18,6 +18,9 @@
     color: var(--black);
     background-color: var(--light-gray);
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -36,6 +39,32 @@ iframe {
     width: 100%;
     height: 35vh;
     background-color: var(--primary-bg-color);
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-nav-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    position: fixed;
+    height: 100%;
+}
+
+.nav-bar {
+    background: var(--sky);
+    z-index: 20;
+    min-width: 160px;
+    padding: 24px 16px;
+}
+
+.side-nav-section a {
+    text-decoration: none;
+    color: var(--white);
 }
 
 .avatar {
@@ -114,7 +143,7 @@ iframe {
     border-radius: 100%;
     padding: 0.5rem;
     margin: 0.5rem;
-    background-color: var(--red); 
+    background-color: var(--red);
     position: absolute;
     top: 8px;
     right: 8px;

@@ -9,7 +9,23 @@
     <link rel="stylesheet" href="components.css">
 </head>
 <body>
-    <section>
+<div class="main-layout">
+    <div class="nav-bar">
+    <section class="side-nav-section">
+        <a href="#avatar">Avatar</a>
+        <a href="#alert">Alert</a>
+        <a href="#badge">Badge</a>
+        <a href="#button">Button</a>
+        <a href="#card">Card</a>
+        <a href="#checkbox">Checkbox</a>
+        <a href="#progressbar">Progress Bar</a>
+        <a href="#snackbar">Snack Bar</a>
+        <a href="#slider">Slider</a>
+        <a href="#collasible">Collasible</a>
+    </section>
+    </div>
+    <div class="components-section">
+    <section id="avatar">
         <h1>Avatar</h1>
         <p>The Avatar component is used to represent a user, displays the profile picture, initials or fallback icon.</p>
         <hr>
@@ -36,7 +52,7 @@
         </iframe>
     </section>
     <hr>
-    <section>
+    <section id="alert">
         <h1>Alert</h1>
         <p>Alerts can be used to show an important message to the user so that it can grab user's attention without any disturbance.</p>
         <hr>
@@ -69,7 +85,7 @@
         </iframe>
     </section>
     <hr>
-    <section>
+    <section id="badge">
         <h1>Badge</h1>
         <p>Badges are the small circle components which is generally used at the parent component to display numbers. It can be situated at the top-right, top-left or at the bottom of the parent component.</p>
         <hr>
@@ -93,11 +109,11 @@
         <p>Dot badges are used to show the dot on the parent container. This is widely used to show unread notifications or online/offline status</p>
         <div class="badge dot">
             <img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
-            <span class="top"></div>
+            <span class="top"/>
         </div>
         <div class="badge dot">
             <img src="../images/avatar.jpg" class="avatar round" alt="Medium Avatar">
-            <span class="bottom"></div>
+            <span class="bottom"/>
         </div>
         <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=htmlmixed&width=753&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2520dot%2522%253E%250A%2509%253Cimg%2520src%253D%2522avatar.jpg%2522%2520class%253D%2522avatar%2520round%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%2509%253Cspan%2520class%253D%2522top%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520dot%2522%253E%250A%2509%253Cimg%2520src%253D%2522avatar.jpg%2522%2520class%253D%2522avatar%2520round%2522%2520alt%253D%2522Medium%2520Avatar%2522%253E%250A%2509%253Cspan%2520class%253D%2522bottom%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
@@ -106,7 +122,7 @@
         </iframe>
     </section>
     <hr>
-    <section class="button">
+    <section class="button" id="button">
 	<h1>Buttons</h1>
 	<div class="button-container">
 	    <p>Primary Buttons</p>
@@ -134,12 +150,12 @@
 	</div>
 	<iframe
 	    src="https://carbon.now.sh/embed/ZjU3bqueLdKQikyfD1jM"
-	    style="border:0; transform: scale(1); overflow:hidden;" 
+	    style="border:0; transform: scale(1); overflow:hidden;"
 	    sandbox="allow-scripts allow-same-origin">
 	</iframe>
     </section>
     <hr>
-    <section>
+    <section id="card">
         <h1>Card</h1>
         <p>Card is a component which is used to display the content with little information.</p>
         <hr>
@@ -181,7 +197,7 @@
     <section class="input">
 
     </section>
-    <section class="checkbox">
+    <section class="checkbox" id="checkbox">
         <h1>CheckBox Component</h1>
         <p>Easy Style Check Box. Check Box text can be passed in label</p>
         <input type="checkbox" id="option">
@@ -193,7 +209,7 @@
         </iframe>
     </section>
     <hr>
-    <section class="progressbar">
+    <section class="progressbar" id="progressbar">
         <h1>Progress Bar</h1>
         <p>Easy Style Progress Bar. Progress level can be adjusted using width attribute.`</p>
         <div class="progress-bar">
@@ -206,7 +222,7 @@
         </iframe>
     </section>
     <hr>
-    <section>
+    <section id="snackbar">
         <h1>Snackbar</h1>
         <p>Snackbar/Toast is a type of interaction happened between user and UI and this snackbar stays on the screen for 1-2 seconds.</p>
         <hr>
@@ -225,7 +241,7 @@
         </iframe>
     </section>
     <hr>
-    <section>
+    <section id="slider">
         <h1>Slider</h1>
         <p>A slider is an input field that can be used to select a numeric value within a given range (minimum and maximum values).</p>
         <div class="slider">
@@ -239,7 +255,7 @@
         </iframe>
     </section>
     <hr>
-    <section>
+    <section id="collasible">
         <h1>Collasible Component</h1>
         <p>Toggle the visibility of content across your project with our few classes</p>
         <div class="collapsible">
@@ -249,5 +265,7 @@
             </div>
         </div>
     </section>
+</div>
+</div>
 </body>
 </html>
