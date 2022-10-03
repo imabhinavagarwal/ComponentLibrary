@@ -38,3 +38,7 @@ has some pre-defined styled classes and components.
 - Slider
 
 - Collapsible
+
+- Divider
+
+- Pagination
