@@ -6,4 +6,4 @@ This is the Book STore hall of fame! All contributors of source code, or documen
 - Victor Mauroe (https://github.com/victormauroe)
 - Shraddha Muley (https://github.com/shraddha15-creator)
 - Avinash Barfa (https://github.com/avinashbarfa)
--Vivek Maurya (https://github.com/Viki-07)
+- Vivek Maurya (https://github.com/shraddha15-creator)
