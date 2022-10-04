@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@400;700&display=swap');
 
+#preloader{
+  background: #000 url(images/loader.gif) no-repeat center center;
+  background-size: 25%;
+  height: 100vh;
+  width: 100%;
+  position:fixed;
+  z-index: 999999;
+}
+
 :root {
     --violet: #7e22ce;
     --violet-light: #7e22ce73;
