@@ -22,9 +22,10 @@
         <a href="#snackbar">Snack Bar</a>
         <a href="#slider">Slider</a>
         <a href="#collasible">Collasible</a>
-	<a href="#divider">Divider</a>
-	<a href="#pagination">Pagination</a>
-	<a href="#Loader">Loader</a>
+      	<a href="#divider">Divider</a>
+      	<a href="#pagination">Pagination</a>
+      	<a href="#carousel">Carousel</a>
+        <a href="#Loader">Loader</a>
     </section>
     </div>
     <div class="components-section">
@@ -268,7 +269,7 @@
             </div>
         </div>
     </section>
-    <hr>	    
+    <hr>
     <section id="divider">
         <h1>Divider</h1>
         <p>A horizontal lines to create sections on various parts of your website.</p>
@@ -298,7 +299,69 @@
             sandbox="allow-scripts allow-same-origin">
         </iframe>
     </section>
-	<hr>
+    <hr>
+    <section id = "carousel">
+      <h1>Carousel</h1>
+      <p>A carousel component helps you to view photos as slideshow.</p><br>
+      <div>
+        <div class="carousel">
+          <ul class="slides">
+            <input type="radio" name="radio-buttons" id="img-1" checked />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-3" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-2" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-2" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-1" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-3" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-3" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-2" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-1" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <div class="carousel-dots">
+              <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+              <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+              <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+            </div>
+          </ul>
+        </div>
+      </div><br>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522carousel%2522%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522slides%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio-buttons%2522%2520id%253D%2522img-1%2522%2520checked%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522slide-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fupload.wikimedia.org%252Fwikipedia%252Fcommons%252F9%252F9e%252FTimisoara_-_Regional_Business_Centre.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522carousel-controls%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522img-3%2522%2520class%253D%2522prev-slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2526lsaquo%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522img-2%2522%2520class%253D%2522next-slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2526rsaquo%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio-buttons%2522%2520id%253D%2522img-2%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522slide-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fcontent.r9cdn.net%252Frimg%252Fdimg%252Fdb%252F02%252F06b291e8-city-14912-171317ad83a.jpg%253Fwidth%253D1750%2526height%253D1000%2526xhint%253D3040%2526yhint%253D2553%2526crop%253Dtrue%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522carousel-controls%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522img-1%2522%2520class%253D%2522prev-slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2526lsaquo%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522img-3%2522%2520class%253D%2522next-slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2526rsaquo%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio-buttons%2522%2520id%253D%2522img-3%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522slide-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fspeakzeasy.files.wordpress.com%252F2015%252F05%252Ftwa_blogpic_timisoara-4415.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522carousel-controls%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522img-2%2522%2520class%253D%2522prev-slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2526lsaquo%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522img-1%2522%2520class%253D%2522next-slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2526rsaquo%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522carousel-dots%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522img-1%2522%2520class%253D%2522carousel-dot%2522%2520id%253D%2522img-dot-1%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522img-2%2522%2520class%253D%2522carousel-dot%2522%2520id%253D%2522img-dot-2%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522img-3%2522%2520class%253D%2522carousel-dot%2522%2520id%253D%2522img-dot-3%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        style="border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+   	<hr>
     <section id="Loader">
         <h1>Loader</h1>
         <p>A loading spinner is typically a component with a looping motion that lets users know when loading is happening.</p>
@@ -312,6 +375,5 @@
     </section>
 </div>
 </div>
-
 </body>
 </html>
