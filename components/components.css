@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@400;700&display=swap');
 
-#preloader{
-  background: #000 url(images/loader.gif) no-repeat center center;
-  background-size: 25%;
-  height: 100vh;
-  width: 100%;
-  position:fixed;
-  z-index: 999999;
+.Loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #552586;
+  border-right: 16px solid #804FB3;
+  border-bottom: 16px solid #9969C7;
+  border-left: 16px solid #B589D6;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 :root {
