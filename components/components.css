@@ -358,7 +358,7 @@ iframe {
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-    background-color: #0ea5e9;
+    background-color: var(--sky);
 }
 
 ul.breadcrumb li {
@@ -381,4 +381,8 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
     color: #000000;
     text-decoration: none;
+}
+
+#breadcrumbtop{
+    border-bottom: 5px solid var(--yellow);
 }
