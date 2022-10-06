@@ -631,4 +631,3 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 
 
 input:checked + .slide-container .nav label { display: block; }
->>>>>>> 3dc9622f247534f10574bad427f29d9aba03f4be
