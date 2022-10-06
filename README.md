@@ -42,3 +42,5 @@ has some pre-defined styled classes and components.
 - Divider
 
 - Pagination
+
+- BreadCrumb

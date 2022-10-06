@@ -41,6 +41,7 @@
     color: var(--black);
     background-color: var(--light-gray);
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -210,7 +211,7 @@ iframe {
     z-index: 1;
 }
 
-#btnControl:checked + div {
+#btnControl:checked+div {
     visibility: visible;
 }
 
@@ -230,11 +231,11 @@ iframe {
 
 
 /* Button */
-.button-container{
+.button-container {
     padding: .5rem 3rem;
 }
 
-.btn{
+.btn {
     padding: .5rem 2rem;
     margin: 0 .5rem;
     border-radius: 5px;
@@ -243,26 +244,26 @@ iframe {
     cursor: pointer;
 }
 
-.btn-primary{
+.btn-primary {
     border: 1px solid var(--violet);
 }
 
-.btn-primary-dark{
+.btn-primary-dark {
     background-color: var(--violet);
     color: var(--white)
 }
 
-.btn-primary-light{
+.btn-primary-light {
     background-color: var(--violet-light);
     color: var(--white)
 }
 
-.btn-link{
+.btn-link {
     text-decoration: underline;
     color: var(--violet);
 }
 
-.btn-rounded{
+.btn-rounded {
     border-radius: 50px;
 }
 
@@ -293,7 +294,7 @@ iframe {
 }
 
 .checkbox label:before {
-    content:'';
+    content: '';
     -webkit-appearance: none;
     background-color: transparent;
     border: 2px solid var(--sky);
@@ -306,7 +307,7 @@ iframe {
     margin-right: 5px;
 }
 
-.checkbox input:checked + label:after {
+.checkbox input:checked+label:after {
     content: '';
     display: block;
     position: absolute;
@@ -348,7 +349,7 @@ iframe {
     width: fit-content;
 }
 
-#btnCollapse:active + div {
+#btnCollapse:active+div {
     visibility: visible;
 }
 
@@ -377,6 +378,38 @@ iframe {
     color: var(--white);
 }
 
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: var(--sky);
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 20px;
+    font-family: sans-serif
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#breadcrumbtop{
+    border-bottom: 5px solid var(--yellow);
+}
 
 /* Carousel */
 
