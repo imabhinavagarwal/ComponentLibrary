@@ -570,6 +570,54 @@ input:checked + .slide-container .slide-image {
   display: none;
 }
 
+.scroll-area{
+    height: 80px;
+    width: auto;
+    overflow: auto;
+    background-color: var(--sky);
+    color: var(--white);
+    scroll-behavior: smooth;
+}
+
+.scrollspy section {
+    height: 15vh;
+}
+
+.scrollspy nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    background-color: var(--blue);
+    color: var(--white);
+    z-index: 1;
+}
+
+.scrollspy nav a{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.scrollspy nav a:hover, 
+section#a:hover ~ nav a[href='#a'],
+section#b:hover ~ nav a[href='#b'],
+section#c:hover ~ nav a[href='#c'],
+section#d:hover ~ nav a[href='#d'],
+section#e:hover ~ nav a[href='#e'] {
+    background-color: var(--sky);
+    color: var(--white);
+    	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+} 
+
 @media (max-width:600px) {
   .nav > .nav-btn {
     display: inline-block;
@@ -631,3 +679,5 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 
 
 input:checked + .slide-container .nav label { display: block; }
+
+
