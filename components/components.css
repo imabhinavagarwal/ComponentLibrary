@@ -577,6 +577,7 @@ input:checked + .slide-container .slide-image {
     background-color: var(--sky);
     color: var(--white);
     scroll-behavior: smooth;
+    margin-bottom: 15px;
 }
 
 .scrollspy section {
